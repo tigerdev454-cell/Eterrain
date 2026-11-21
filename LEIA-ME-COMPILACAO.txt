@@ -1,0 +1,16 @@
+# ETerrain para Windows 11 x64
+
+O executável ainda não está incluído neste ZIP. Este projeto contém um workflow do GitHub Actions para compilar o programa em um runner Windows, sem instalar CMake ou Visual Studio no seu computador.
+
+## Como obter o ETerrain.exe
+1. Crie uma conta ou entre em https://github.com.
+2. Crie um repositório novo e envie todos os arquivos desta pasta para ele (incluindo a pasta oculta `.github`).
+3. Abra a aba **Actions** do repositório.
+4. Se solicitado, habilite workflows.
+5. Execute **Build ETerrain for Windows 11** em **Run workflow**.
+6. Quando terminar, abra a execução e baixe o artefato **ETerrain-Windows-x64-portable**.
+
+A compilação ocorre nos servidores do GitHub. O seu Windows 11 não precisa de CMake nem Visual Studio.
+
+## Atenção
+O workflow tenta compilar o código-fonte fornecido. Se houver erro de compilação no próprio projeto, o GitHub Actions mostrará o log; não há garantia de que a fonte original compile sem ajustes.
