@@ -1,0 +1,11 @@
+#pragma once
+
+namespace GLSL
+{
+constexpr auto ${SHADER_NAME}_vsh = R"(
+${SHADER_VSH_CONTENT}
+)";
+constexpr auto ${SHADER_NAME}_fsh = R"(
+${SHADER_FSH_CONTENT}
+)";
+}
